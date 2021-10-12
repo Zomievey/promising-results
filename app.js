@@ -1,37 +1,38 @@
-slowMath.add(6, 2)
+let sum = slowMath
+//     .add(6, 2)
 //     .then(sum => {
 //         console.log(sum);
 //         return slowMath.multiply(sum, 2)    
 //     })
-//     .then(res => {
+//     .then(div => {
 //         console.log(res);
-//         return slowMath.divide(res, 4)
+//         return slowMath.divide(div, 4)
 //     })
-//     .then(quotient => {
+//     .then(sub => {
 //         console.log(quotient);
-//         return slowMath.subtract(quotient, 3)
+//         return slowMath.subtract(sub, 3)
 //     })
-//     .then(res => {
+//     .then(sum => {
 //         console.log(res);
-//         return slowMath.add(res, 98)
+//         return slowMath.add(sum, 98)
 //     })
-//     .then(res => {
+//     .then(mult => {
 //         console.log(res)
-//         return slowMath.remainder(res, 2)
+//         return slowMath.remainder(mult, 2)
 //     })
-//     .then(res => {
+//     .then(mult => {
 //         console.log(res)
-//         return slowMath.multiply(res, 50)
+//         return slowMath.multiply(mult, 50)
 //     })
-//     .then(res => {
+//     .then(rem => {
 //         console.log(res)
-//         return slowMath.remainder(res, 40)
+//         return slowMath.remainder(rem, 40)
 //     })
-//     .then(res => {
+//     .then(sum => {
 //         console.log(res)
-//         return slowMath.add(res, 32)
+//         return slowMath.add(sum, 32)
 //     })
-//     .then(res => console.log(`The final result is ${res}`))
+//     .then(result => console.log(`The final result is ${result}`))
 //     .catch(err => console.log(err))
 
 const doMath = async () => {
