@@ -1,35 +1,35 @@
-let sum = slowMath
+// let sum = slowMath
 //     .add(6, 2)
 //     .then(sum => {
 //         console.log(sum);
 //         return slowMath.multiply(sum, 2)    
 //     })
 //     .then(div => {
-//         console.log(res);
+//         console.log(div);
 //         return slowMath.divide(div, 4)
 //     })
 //     .then(sub => {
-//         console.log(quotient);
+//         console.log(sub);
 //         return slowMath.subtract(sub, 3)
 //     })
 //     .then(sum => {
-//         console.log(res);
+//         console.log(sum);
 //         return slowMath.add(sum, 98)
 //     })
 //     .then(mult => {
-//         console.log(res)
+//         console.log(mult)
 //         return slowMath.remainder(mult, 2)
 //     })
 //     .then(mult => {
-//         console.log(res)
+//         console.log(mult)
 //         return slowMath.multiply(mult, 50)
 //     })
 //     .then(rem => {
-//         console.log(res)
+//         console.log(rem)
 //         return slowMath.remainder(rem, 40)
 //     })
 //     .then(sum => {
-//         console.log(res)
+//         console.log(sum)
 //         return slowMath.add(sum, 32)
 //     })
 //     .then(result => console.log(`The final result is ${result}`))
